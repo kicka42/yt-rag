@@ -1,4 +1,3 @@
-# https://www.youtube.com/watch?v=yixIc1Ai6jM
 import sys
 from pipeline import create_qa_chain
 from transcription import transcribe_video, split_transcription
