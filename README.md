@@ -21,6 +21,13 @@ This repository contains a Retrieval-Augmented Generation (RAG) application buil
     pip install -r requirements.txt
     ```
 
+3. Fill in the required API keys in the `utils/.env` file:
+    ```
+    OPENAI_API_KEY=your_openai_api_key
+    PINECONE_API_KEY=your_pinecone_api_key
+    PINECONE_ENV=your_pinecone_env
+    ```
+
 ## Usage
 
 1. **Run the Application**:
