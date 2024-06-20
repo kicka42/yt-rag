@@ -19,5 +19,3 @@ def create_qa_prompt():
 def create_qa_chain():
     prompt = create_qa_prompt()
     return prompt | model | parser
-
-
